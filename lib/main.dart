@@ -70,6 +70,7 @@ class _PomodoroTimerState extends State<PomodoroTimer> {
     _totalSeconds = _workMinutes * 60;
     _currentSeconds = _totalSeconds;
     _isInitialized = _loadQuotes();
+    // Non è divertente ina cattiva
   }
 
   Future<bool> _loadQuotes() async {
